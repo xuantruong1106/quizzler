@@ -3,6 +3,7 @@ import 'quiz_brain.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,  
     home: QuizApp(),
   ));
 }
@@ -57,7 +58,7 @@ class _QuizAppState extends State<QuizApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp( 
-      debugShowCheckedModeBanner: false,  
+
       home: Scaffold(
         backgroundColor: Colors.blueGrey[900],
         body: SafeArea(
